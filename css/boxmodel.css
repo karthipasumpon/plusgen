@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* .container {
+    border: 5px solid red;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 10px; 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px; 
+} */
+
+.subcontainer {
+    border: 5px solid red;
+
+    border-width: 5px 10px 15px 20px;
+        border-top-width: 5px;
+        border-right-width: 10px;
+        border-bottom-width: 15px;
+        border-left-width: 20px;
+
+    border-style: solid dotted dashed double;
+       border-top-style: solid;
+       border-right-style: solid;
+       border-bottom-style: solid;
+       border-left-style: solid;
+
+    border-color: red;
+       border-top-color: red;
+       border-right-color: red;
+       border-bottom-color: red;
+       border-left-color: red;
+
+   border-top: 3px solid red;
+   border-left: 10px solid blue;
+   border-bottom: 4px solid red;
+   border-right: 3px solid red;
+
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 200px;
+    height: 300px;
+    
+}   
+
+.parent {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+
+/* elementwidth = width + paddingleft + paddingright + borderleft + borderright */
+
+ /* elementwidth  = 200 + 30 + 30 + 5 + 5 == 270 */
+
+/* elementheight = height + paddingtop + paddingbottom + bordertop + borderbottom */
+
+/* elementheight = 300 + 10 + 10 + 5 + 5 == 330 */
+
+/* border-width
+border-style
+border-color */
+
+/* css units */
+/* px
+rem 
+em 
+% */
+
+/* border style */
+/* solid 
+dotted 
+dashed 
+ridge 
+inset 
+outset 
+groove 
+double 
+none */

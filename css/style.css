@@ -1,0 +1,22 @@
+/* External C*/
+
+/* element Name */
+h1 {
+    color : red;
+}
+/* Class name */
+.mainheader {
+    color: violet;
+}
+/* Id Name */
+#subheader {
+    color: pink;
+}
+/* Attribute Name */
+[title="head"] {
+    color: aqua;
+}
+/* Descendant Selector */
+.container p {
+    color: darkblue;
+}

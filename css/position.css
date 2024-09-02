@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+/* .subcontainer {
+    position: relative;
+} */
+ .subcontainer span {
+    background-color: red;
+    color: #fff;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+/* px 
+% 
+em 
+rem */
+
+.header {
+    /* position: relative; */
+    /* top: 100px; */
+    background-color: red;
+    position: static;
+    /* margin-top: 100px; */
+}
+
+.tophead {
+    /* border: 2px solid red;
+    padding: 30px; */
+}
+
+.mainhead {
+    /* border: 2px solid blue;
+    height: 200px;  
+    position: relative;  */
+}
+
+.subheading {
+    background-color: blue;
+    /* position: absolute;
+    top: 10px;
+    margin: 0px; */
+    width: 100%;
+}
+
+/* top 
+left
+right 
+bottom */
+
+/* <!-- relative
+sticky
+fixed
+absolute
+static --> */
